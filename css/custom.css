@@ -1,5 +1,4 @@
 .overlay-mtb {
-    background:url("../images/mtb.jpg") rgba(0, 0, 0, 0.9);
     width: 100%;
 	height: 100%;
     padding-top: 100px;
@@ -14,4 +13,45 @@
     width: 100%;
     padding-left: 2%;
     padding-right: 2%;
+}
+
+.p-margin {
+    margin-bottom: 5px;
+}
+
+.slider-text-overlay {
+	background-color: rgb(56, 56, 56, 0.5);
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.send-docs-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.send-docs-container input, label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.send-docs-container input {
+    margin-left: 80px;
+}
+
+.success {
+    color: #7EC13F;
+    display: none;
+}
+
+.error {
+    color: red;
+    display: none;
+}
+@media (min-width: 1200px) {
+    .container-custom {
+        width: 970px;
+    }
 }

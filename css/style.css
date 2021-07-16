@@ -655,7 +655,7 @@ section {
 }
 
 .menu-bg {
-	background:#202020;
+	background:#565656;
 }
 
 #main-menu ul {
@@ -710,10 +710,13 @@ section {
 }
 
 .logo {
-	width: 100% !important;
-	height: 100% !important;
+	width: 200px !important;
+	height: 75px !important;
 }
-
+.logo img{
+	width: 200px !important;
+	height: 75px !important;
+}
 .logo-nav {
 	float: left;
 	line-height: 60px;
@@ -749,7 +752,7 @@ section {
 }
 
 .small {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 200;
     color: #FFF;
     margin: 30px 0px 0px;
@@ -2030,7 +2033,7 @@ ul.timeline {
 
 
 #testimonials {
-	background:url(../images/parallax/testimonials.jpg) no-repeat;
+	background: url("../images/mtb.jpg") no-repeat;
 }
 
 #testimonials {
@@ -2099,7 +2102,7 @@ ul.timeline {
 
 .clients-carousel .item figure {
 	margin: 10px;
-	width: 150px;
+	width: 200px;
 	margin: 0 auto;
 }
 
@@ -2900,7 +2903,7 @@ footer {
 }
 
 .small {
-    font-size: 19px;
+    font-size: 12px;
 }
 
 }

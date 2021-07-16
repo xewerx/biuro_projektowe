@@ -31,6 +31,13 @@
     <link href="css/style.css" type="text/css" rel="stylesheet" />
     <link href="css/custom.css" type="text/css" rel="stylesheet" />
 
+    <!--For mailing-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_fIn6V70v531PcY82GVR1l");
+        })();
+    </script>
 
     <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -63,26 +70,24 @@
                         <span class="icon-bar"></span>
                     </button>
 
-                    
-                    <div class="logo-nav">
+
+                    <div class="logo-nav logo">
                         <a href="index.html">
                             <img src="images/logo.png" alt="Company logo" />
                         </a>
                     </div>
-                    
+
                     <div class="clear-toggle"></div>
                     <div id="main-menu" class="collapse scroll navbar-right">
                         <ul class="nav">
 
-                            <li> <a href="#home">Firma</a> </li>
+                            <li> <a href="#home">O nas</a> </li>
 
-                            <li> <a href="#projects">Projektowanie</a> </li>
+                            <li> <a href="#projects">Nasze realizacje</a> </li>
 
                             <li> <a href="#team">Ważne strony</a> </li>
 
-                            <li> <a href="#services">Usługi</a> </li>
-
-                            <li> <a href="#blog">Organizacje ruchu tymczasowe i docelowe</a></li>
+                            <li> <a href="#blog">Organizacje ruchu</a></li>
 
                             <li> <a href="#testimonials">Nasza pasja</a></li>
 
@@ -104,10 +109,11 @@
             <ul class="slides scroll">
                 <li class="first">
                     <div class="slider-text-wrapper">
-                        <div class="container">
-                            <div class="big">Projektowanie</div>
-                            <div class="small">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        <div class="container slider-text-overlay">
+                            <div class="big">Kim jesteśmy?</div>
+                            <div class="small">
+                                MS Road – Project to mała rodzinna firma zrzeszająca wykwalifikowanych i
+                                doświadczonych zawodowo specjalistów w dziedzinie drogownictwa.
                             </div>
                         </div>
                     </div>
@@ -116,10 +122,19 @@
 
                 <li class="secondary">
                     <div class="slider-text-wrapper">
-                        <div class="container">
-                            <div class="big">Pomoc w uzyskaniu dofinansowania</div>
-                            <div class="small">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        <div class="container slider-text-overlay">
+                            <div class="big">Jak działamy?</div>
+                            <div class="small">
+                                Firma MSRP stosuje rozsądne rozwiązania ekonomicznie, technicznie
+                                wykonalne, wymagające pod względem projektowym, naukowo uzasadnione i zgodne z
+                                obowiązującymi przepisami rozwiązania.
+                            </div>
+                            <div class="small">
+                                Oprócz kompetencji technicznych, naszą firmę charakteryzuje bliski kontakt z klientem,
+                                ścisła koordynacja z osobami zaangażowanymi w projekt oraz intensywny proces mediacji.
+                                Współpraca projektowa, począwszy od koncepcji, poprzez analizy i wstępne projekty
+                                planistyczne, aż do wykonania dróg i obiektów jest szczególną cechą jakościową dla wielu
+                                naszych klientów.
                             </div>
                         </div>
                     </div>
@@ -128,10 +143,20 @@
 
                 <li class="third">
                     <div class="slider-text-wrapper">
-                        <div class="container">
-                            <div class="big">Badania</div>
-                            <div class="small">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        <div class="container slider-text-overlay">
+                            <div class="big">Czym się zajmujemy?</div>
+                            <div class="small">
+                                MS Road Project zajmująca się badaniami i planowaniem miast i transportu,
+                                pracuje dla klientów publicznych i prywatnych od ponad 20 lat. MSRP oferuje kompleksowe
+                                usługi w zakresie pomiarów ruchu, planowania ruchu i rozwoju, planowania i doradztwa.
+                            </div>
+                            <div class="small">
+                                Projekty budowy dróg, projekty koncepcyjne rozwoju sieci, koncepcje ruchu, analizy,
+                                działania badawcze i koordynacyjne to złożone zadania dla MSRP, które coraz częściej
+                                wymagają specjalnych kwalifikacji. W tym przypadku opieramy się na wieloletnim
+                                doświadczeniu i udanych projektach, które zostały zrealizowane we współpracy z
+                                Przedstawicielami Zarządców Dróg, przy współpracy z ekspertami z innych dziedzin
+                                budownictwa.
                             </div>
                         </div>
                     </div>
@@ -145,42 +170,14 @@
     <!--Start Section-->
     <section id="projects" class="section">
         <div class="title-box text-center">
-            <h2 class="title">Projektowanie</h2>
-        </div>s
+            <h2 class="title">Nasze realizacje</h2>
+        </div>
+
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="content-tab-1">
-                        <ul class="nav">
 
-                            <li class="active">
-                                <a aria-expanded="true" href="#tab-content-1" data-toggle="tab">
-                                    <i class="fa fa-cubes"></i>
-                                    <h4>Budownictwo drogowe</h4>
-                                </a>
-                                <div class="tab-arrow">
-                                </div>
-                            </li>
-
-                            <li>
-                                <a aria-expanded="true" href="#tab-content-2" data-toggle="tab">
-                                    <i class="fa fa-institution"></i>
-                                    <h4>Projektowanie parkingow</h4>
-                                </a>
-                                <div class="tab-arrow">
-                                </div>
-                            </li>
-
-                            <li>
-                                <a aria-expanded="true" href="#tab-content-3" data-toggle="tab">
-                                    <i class="fa fa-pagelines"></i>
-                                    <h4>Projekty zjazdow drogowych</h4>
-                                </a>
-                                <div class="tab-arrow">
-                                </div>
-                            </li>
-
-                        </ul>
 
                         <div class="tab-content-main">
                             <div class="container">
@@ -189,110 +186,106 @@
                                     <div class="tab-pane active" id="tab-content-1">
 
                                         <div class="tab-content-1">
+                                            <!-- Team -->
+                                            <div class="team-items team-carousel">
 
-                                            <div class="col-md-6">
-                                                <div class="core-features">
-
-                                                    <p>1Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                        Curabitur euismod enim a metus adipiscing aliquam. Vestibulum in
-                                                        vestibulum lorem. Lorem ipsum dolor sit amet, consectetur
-                                                        adipiscing elit. Curabitur euismod enim a metus adipiscing
-                                                        aliquam. Vestibulum in vestibulum lorem. Lorem ipsum dolor sit
-                                                        amet, consectetur adipiscing elit. Curabitur euismod enim a
-                                                        metus adipiscing.</p>
-
-                                                    <ul class="list">
-                                                        <li>Font-Awesome Integration</li>
-                                                        <li>Multiple unique designs</li>
-                                                        <li>Clean coded, responsive and multipurpose</li>
-                                                        <li>Pages valid on w3c.</li>
-                                                        <li>Well documented.</li>
-                                                        <li>Easy to customization.</li>
-                                                    </ul>
-
+                                                <div class="item item-carousel">
+                                                    <img src="images/sample.jpg" alt="" />
+                                                    <h5>Przebudowa drogi od skrzyżowania w Lipnie do wiaduktu w
+                                                        Smyczynie.</h5>
                                                 </div>
-                                            </div>
 
-
-                                            <div class="col-md-6">
-                                                <div class="devices-image">
-                                                    <img src="images/device-desktop.png" alt="" />
+                                                <div class="item item-carousel">
+                                                    <img src="images/sample.jpg" alt="" />
+                                                    <h5>Przebudowa drogi powiatowej nr 4769P na odcinku od skrzyżowania
+                                                        z drogą wojewódzką nr 309 w m. Lipno do wiaduktu w m. Smyczyna.
+                                                    </h5>
                                                 </div>
-                                            </div>
 
+                                                <div class="item item-carousel">
+                                                    <img src="images/sample.jpg" alt="" />
+                                                    <h5>Przebudowa drogi od Gołanice do Jezierzyc Kościelnych.</h5>
+                                                </div>
+
+                                                <div class="item item-carousel">
+                                                    <img src="images/sample.jpg" alt="" />
+                                                    <h5>Przebudowa drogi powiatowej nr 4760P na odcinku od m. Gołanice
+                                                        do m. Jezierzyce Kościelne.</h5>
+                                                </div>
+
+                                                <div class="item item-carousel">
+                                                    <img src="images/sample.jpg" alt="" />
+                                                    <h5>Przebudowa drogi powiatowej w Krzycku Wielkim.</h5>
+                                                </div>
+
+                                                <div class="item item-carousel">
+                                                    <img src="images/sample.jpg" alt="" />
+                                                    <h5>Przebudowa drogi powiatowej nr 4759P w miejscowości Krzycko
+                                                        Wielkie.</h5>
+                                                </div>
+
+                                                <div class="item item-carousel">
+                                                    <img src="images/sample.jpg" alt="" />
+                                                    <h5>Budowa sieci połączeń dróg dla rowerów na terenie gminy
+                                                        Święciechowa.</h5>
+                                                </div>
+
+                                                <div class="item item-carousel">
+                                                    <img src="images/sample.jpg" alt="" />
+                                                    <h5>Przebudowa drogi powiatowej nr 4770P na odcinku Mórkowo.</h5>
+                                                </div>
+
+                                                <div class="item item-carousel">
+                                                    <img src="images/sample.jpg" alt="" />
+                                                    <h5>Budowa ciągu pieszo – rowerowego Gołanice, Jezierzyce Kościelne.
+                                                    </h5>
+                                                </div>
+
+                                                <div class="item item-carousel">
+                                                    <img src="images/sample.jpg" alt="" />
+                                                    <h5>Przebudowa drogi powiatowej 4800 P na odcinku Dąbcze – Nowa wieś
+                                                        – Kąkolewo.</h5>
+                                                </div>
+
+                                                <div class="item item-carousel">
+                                                    <img src="images/sample.jpg" alt="" />
+                                                    <h5>Budowa sieci połączeń dróg dla rowerów w Gminie Osieczna, Lipno
+                                                        i Rydzyna w ramach zadania ograniczenie niskiej emisji na
+                                                        terenie Aglomeracji Leszczyńskiej.</h5>
+                                                </div>
+
+                                                <div class="item item-carousel">
+                                                    <img src="images/sample.jpg" alt="" />
+                                                    <h5>Budowa obwodnicy Boguszyna na odcinku od DW 305 – do
+                                                        skrzyżowania z drogą gminną nr 712638P.</h5>
+                                                </div>
+
+                                                <div class="item item-carousel">
+                                                    <img src="images/sample.jpg" alt="" />
+                                                    <h5>Przebudowa drogi powiatowej nr 4771P w miejscowości Wilkowice.
+                                                    </h5>
+                                                </div>
+
+                                                <div class="item item-carousel">
+                                                    <img src="images/sample.jpg" alt="" />
+                                                    <h5>Przebudowa drogi powiatowej nr 4801P na odcinku droga krajowa nr
+                                                        5- Dąbcze.</h5>
+                                                </div>
+
+                                                <div class="item item-carousel">
+                                                    <img src="images/sample.jpg" alt="" />
+                                                    <h5>Budowa obwodnicy Krzycka Wielkiego od skrzyżowania z drogą
+                                                        powiatowa 3902P.</h5>
+                                                </div>
+
+
+                                            </div>
+                                            <!-- End Team -->
                                         </div>
-
-                                    </div>
-
-                                    <div class="tab-pane" id="tab-content-2">
-
-                                        <div class="tab-content-2">
-
-                                            <div class="col-md-6">
-                                                <div class="core-features">
-
-                                                    <p>2Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                        Curabitur euismod enim a metus adipiscing aliquam. Vestibulum in
-                                                        vestibulum lorem. Lorem ipsum dolor sit amet, consectetur
-                                                        adipiscing elit. Curabitur euismod enim a metus adipiscing
-                                                        aliquam. Vestibulum in vestibulum lorem. Lorem ipsum dolor sit
-                                                        amet, consectetur adipiscing elit. Curabitur euismod enim a
-                                                        metus adipiscing.</p>
-
-                                                </div>
-                                            </div>
-
-
-                                            <div class="col-md-6">
-                                                <div class="devices-image">
-                                                    <img src="images/device-desktop.png" alt="" />
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-
-                                    <div class="tab-pane" id="tab-content-3">
-
-                                        <div class="tab-content-3">
-
-                                            <div class="col-md-6">
-                                                <div class="core-features">
-
-                                                    <p>3Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                        Curabituus adipilit. Curabitur euismod enim a
-                                                        metus adipiscing.</p>
-
-                                                    </ul>
-
-                                                </div>
-                                            </div>
-
-
-                                            <div class="col-md-6">
-                                                <div class="devices-image">
-                                                    <img src="images/device-desktop.png" alt="" />
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!--/.tab-content-main-->
-                    </div>
-                </div>
-
-            </div>
-            <!--/.row-->
-        </div>
-        <!--/.container-->
+                                        <!-- End Content -->
     </section>
-    <!--End Section-->
+    <!--End Team-->
+
 
     <!-- Start Facts-->
     <section id="facts" class="section parallax">
@@ -301,28 +294,21 @@
             <div class="row">
 
                 <!-- Start Item-->
-                <div class="col-md-4 col-sm-6 facts-box margin-bottom-30">
+                <div class="col-md-6 col-sm-6 facts-box margin-bottom-30">
                     <span><i class="icon-happy"></i></span>
-                    <h3>841</h3>
+                    <h3>100%</h3>
                     <span>Zadowolonych klientow</span>
                 </div>
                 <!-- End Item-->
 
                 <!-- Start Item-->
-                <div class="col-md-4 col-sm-6 facts-box margin-bottom-30">
+                <div class="col-md-6 col-sm-6 facts-box margin-bottom-30">
                     <span><i class="icon-presentation"></i></span>
-                    <h3>800</h3>
-                    <span>Projektow</span>
+                    <h3>40+</h3>
+                    <span>Profesjonalnych projektow</span>
                 </div>
                 <!-- End Item-->
 
-                <!-- Start Item-->
-                <div class="col-md-4 col-sm-6 facts-box margin-bottom-30">
-                    <span><i class="icon-trophy"></i></span>
-                    <h3>21</h3>
-                    <span>Nagrod</span>
-                </div>
-                <!-- End Item-->
 
             </div> <!-- /.row -->
         </div> <!-- /.container -->
@@ -335,7 +321,7 @@
             <div class="row">
 
                 <div class="title-box text-center">
-                    <h2 class="title">Wazne strony</h2>
+                    <h2 class="title">Ważne strony</h2>
                 </div>
 
             </div>
@@ -366,187 +352,15 @@
     <!--End Team-->
 
 
-    <!--Start Skills-->
-    <section id="skills" class="section parallax">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-
-                <div class="title-box text-center white">
-                    <h2 class="title">Nasze umiejetnosci</h2>
-                </div>
-
-                <!--Skill #1-->
-                <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
-                    <span class="pie-chart " data-percent="87">
-                        <span class="percent"></span>
-                    </span>
-                    <h4>Photoshop</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-
-                <!--Skill #2-->
-                <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
-                    <span class="pie-chart" data-percent="75">
-                        <span class="percent"></span>
-                    </span>
-                    <h4>Wordpress</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-
-                <!--Skill #3-->
-                <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
-                    <span class="pie-chart " data-percent="60">
-                        <span class="percent"></span>
-                    </span>
-                    <h4>Graphic</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-
-                <!--Skill #4-->
-                <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
-                    <span class="pie-chart" data-percent="95">
-                        <span class="percent"></span>
-                    </span>
-                    <h4>Development</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-
-
-            </div> <!-- /.row-->
-        </div> <!-- /.container-->
-    </section>
-    <!--End Skills-->
-
-
-    <!--Start Services-->
-    <section id="services" class="section">
-        <div class="container">
-            <div class="row">
-
-                <div class="title-box text-center">
-                    <h2 class="title">Nasze uslugi</h2>
-                </div>
-
-                <!--Services Item-->
-                <div class="col-md-4">
-                    <div class="services-box">
-                        <div class="services-icon"> <i class="icon-basket"></i> </div>
-                        <div class="services-desc">
-                            <h4>Uzyskanie dofinansowania</h4>
-                            <p>Kompleksowe przygotowanie dokumentacji niezbędnej do uzyskania dofinansowania</p>
-                            <a href="https://mapadotacji.gov.pl/" target="_blank">Mapa dotacji</a>
-                        </div>
-                    </div>
-                </div>
-                <!--End services Item-->
-
-                <!--Services Item-->
-                <div class="col-md-4">
-                    <div class="services-box">
-                        <div class="services-icon"> <i class="icon-shield"></i> </div>
-                        <div class="services-desc">
-                            <h4>Usluga 2</h4>
-                            <p>Lorem ipsum dolor consectetur dolor consectetur adipisicing incididunt eiusmod tempor
-                                incididunt laboredolore adipisicing. </p>
-                        </div>
-                    </div>
-                </div>
-                <!--End services Item-->
-
-                <!--Services Item-->
-                <div class="col-md-4">
-                    <div class="services-box">
-                        <div class="services-icon"> <i class="icon-hotairballoon"></i> </div>
-                        <div class="services-desc">
-                            <h4>Usluga 3</h4>
-                            <p>Lorem ipsum dolor consectetur dolor consectetur adipisicing incididunt eiusmod tempor
-                                incididunt laboredolore adipisicing. </p>
-                        </div>
-                    </div>
-                </div>
-                <!--End services Item-->
-
-            </div>
-            <!--/.row-->
-        </div>
-        <!--/.container-->
-    </section>
-    <!--End Services-->
-
-    <!--Start video-->
-    <section id="video" class="section parallax">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-
-                <div class="title-box text-center white">
-                    <h2 class="title">Video</h2>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="video-caption-main">
-                        <!--Video caption #1-->
-                        <div class="video-caption">
-                            <div class="video-icon">
-                                <i class="fa fa-briefcase"></i>
-                            </div>
-                            <div class="video-caption-info">
-                                <h4>Take a look at this video to see how we work.</h4>
-                                <p>Lorem ipsum dolor consectetur adipisicing incididunt eiusmod tempor incididunt
-                                    laboredolore magna aliqua.</p>
-                            </div>
-                        </div>
-
-                        <!--Video caption #2-->
-                        <div class="video-caption">
-                            <div class="video-icon">
-                                <i class="fa fa-glass"></i>
-                            </div>
-                            <div class="video-caption-info">
-                                <h4>The programming language of ios apps</h4>
-                                <p>Lorem ipsum dolor consectetur adipisicing incididunt eiusmod tempor incididunt
-                                    laboredolore magna aliqua.</p>
-                            </div>
-                        </div>
-
-                        <!--Video caption #3-->
-                        <div class="video-caption">
-                            <div class="video-icon">
-                                <i class="fa fa-rocket "></i>
-                            </div>
-                            <div class="video-caption-info">
-                                <h4>Take a look at this video to see how we work.</h4>
-                                <p>Lorem ipsum dolor consectetur adipisicing incididunt eiusmod tempor incididunt
-                                    laboredolore magna aliqua.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <!-- End Video caption-->
-
-                <div class="col-md-6">
-                    <div class="play-video">
-                        <iframe
-                            src="http://player.vimeo.com/video/115919099?title=0&amp;byline=0&amp;portrait=0&amp;color=fff"
-                            allowfullscreen></iframe>
-                    </div>
-                </div>
-
-            </div> <!-- /.row-->
-        </div> <!-- /.container-->
-    </section>
-    <!--End video-->
 
 
     <!-- Start blog-->
     <section id="blog" class="section">
-        <div class="container">
+        <div class="container container-custom">
             <div class="row">
 
                 <div class="title-box text-center">
-                    <h2 class="title">Organizacje ruchu tymczasowe i docelowe</h2>
+                    <h2 class="title">Organizacje ruchu</h2>
                 </div>
 
                 <!-- Start Blog item #1-->
@@ -557,9 +371,36 @@
                                 <img src="images/objazd.jpeg" alt="">
                             </div>
                             <div class="post-desc text-center">
-                                <h4>Zleć organizację ruchu</h4>
-                                <p>Tutaj bedzie otwieralo sie okienko w ktorym bedzie mozna wyslac dookumenty</p>
-                                <a href="blog.html" class="btn btn-gray-border">Wyślij wymagane dokumenty</a>
+                                <h4>Projekt organizacji ruchu</h4>
+                                <p>
+                                    Projekt organizacji ruchu to szereg rozwiązań mających na celu bezpieczne i
+                                    efektowne
+                                    przemieszczanie się uczestników ruchu na różnego rodzaju ciągach komunikacyjnych. W
+                                    celu uzyskania oczekiwanego efektu poprzez wprowadzenie odpowiedniego oznakowania
+                                    „wprowadzenie ładu” należy sporządzić projekt organizacji ruchu który w swym
+                                    opracowaniu wskazuje sposób, miejsce lokalizacji m.in. <a
+                                        href="https://unistop.pl/oferta/oznakowanie-poziome" target="_blank">oznakowania
+                                        poziomego</a> i
+                                    pionowego, sygnalizacji świetlnej i innych elementów <a
+                                        href="https://unistop.pl/oferta/urzadzenia-bezpieczenstwa-ruchu-drogowego"
+                                        target="_blank">urządzeń bezpieczeństwa ruchu</a>.
+                                </p>
+                                <p class="p-margin">Projekt stałej organizacji ruchu,</p>
+                                <p>Projekt czasowej organizacji ruchu.</p>
+                                <h4>Dokumentacja przetargowa</h4>
+                                <p>To dokumentacja przetargowa odgrywa kluczową rolę w postępowaniu przetargowym .
+                                    Obejmuje ona między innymi kosztorysy do wyceny. Ich rzetelne przygotowanie ułatwi
+                                    uczestnikom złożenie czytelnej oferty. Organizator przetargu będzie mógł natomiast
+                                    dzięki nim łatwiej porównać propozycje poszczególnych partnerów. Do dokumentacji
+                                    warto dołączyć odpowiednio przygotowane rysunki techniczne i szczegółowe
+                                    specyfikacje techniczne, które na etapie realizacji zadania pomogą na bieżąco
+                                    rozwiązać problemy. Właściwe przygotowanie inwestycji przy realizowaniu zadań
+                                    współfinansowanych gwarantuje jej powodzenie</p>
+                                <div class="send-docs-container">
+                                    <input type="file" id="docs">
+                                    <label for="docs" class="btn btn-gray-border">Wyślij wymagane dokumenty</label>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -574,36 +415,30 @@
 
     <!--Start Testimonial-->
     <section id="testimonials" class="section parallax">
-        <div class="overlay-mtb">
-            <div class="container">
-                <div class="row">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row overlay-mtb">
 
-                    <div class="title-box text-center white">
-                        <h2 class="title">Nasza pasja</h2>
-                    </div>
+                <div class="title-box text-center white">
+                    <h2 class="title">Nasza pasja</h2>
+                </div>
 
 
-                    <div class="col-md-10 col-md-offset-1">
-                        <div>
-                            <!--Start Testimonial item #1-->
-                            <div class="items">
-                                <div class="desc">habitant morbi tristique senectus et netus et malesuada fames ac
-                                    turpis
-                                    egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet,
-                                    ante.
-                                    Donec eu libero sit amet habitant morbi tristique senectus et netus et malesuada
-                                    fames
-                                    ac quam egestas.</div>
-                                <a href="https://www.facebook.com/MS-Road-66-105264887929563" target="_blank"><img
-                                        src="images/fb.svg" class="testimonial-pic" alt="testimonials" /></a>
-                                <div class="name">Odwiedz nas na Facebooku!</div>
-                            </div>
+                <div class="col-md-10 col-md-offset-1">
+                    <div>
+                        <!--Start Testimonial item #1-->
+                        <div class="items">
+                            <div class="desc">Poza pracą jesteśmy wielkimi pasjonatami jazdy na rowerach MTB</div>
+                            <a href="https://www.facebook.com/MS-Road-66-105264887929563" target="_blank"><img
+                                    src="images/fb.svg" class="testimonial-pic" alt="testimonials" /></a>
+                            <div class="name">Odwiedź nas na Facebooku!</div>
                         </div>
                     </div>
                 </div>
-                <!--/.row-->
             </div>
+            <!--/.row-->
         </div>
+
         <!--/.container-->
     </section>
     <!--Start Testimonial-->
@@ -615,7 +450,7 @@
             <div class="row">
 
                 <div class="title-box text-center">
-                    <h2 class="title">Nasi klienci</h2>
+                    <h2 class="title">Nasi Kontrahenci</h2>
                 </div>
 
                 <div class="clients-carousel">
@@ -624,7 +459,7 @@
                     <div class="item">
                         <a href="#">
                             <figure>
-                                <img src="images/clients-logo/client1.png" alt="" />
+                                <p>Zarząd Dróg Powiatowych w Lesznie</p>
                             </figure>
                         </a>
                     </div>
@@ -633,7 +468,7 @@
                     <div class="item">
                         <a href="#">
                             <figure>
-                                <img src="images/clients-logo/client2.png" alt="" />
+                                <p>Zarząd Dróg Gminnych we Włoszakowicach</p>
                             </figure>
                         </a>
                     </div>
@@ -642,7 +477,7 @@
                     <div class="item">
                         <a href="#">
                             <figure>
-                                <img src="images/clients-logo/client3.png" alt="" />
+                                <p>Urząd Miasta i Gminy Osieczna</p>
                             </figure>
                         </a>
                     </div>
@@ -651,7 +486,7 @@
                     <div class="item">
                         <a href="#">
                             <figure>
-                                <img src="images/clients-logo/client4.png" alt="" />
+                                <p>Urząd Gminy Wijewo</p>
                             </figure>
                         </a>
                     </div>
@@ -660,7 +495,7 @@
                     <div class="item">
                         <a href="#">
                             <figure>
-                                <img src="images/clients-logo/client2.png" alt="" />
+                                <p>ENEA S.A</p>
                             </figure>
                         </a>
                     </div>
@@ -669,7 +504,7 @@
                     <div class="item">
                         <a href="#">
                             <figure>
-                                <img src="images/clients-logo/client5.png" alt="" />
+                                <p>Spółka Gazownictwa S.A</p>
                             </figure>
                         </a>
                     </div>
@@ -678,19 +513,11 @@
                     <div class="item">
                         <a href="#">
                             <figure>
-                                <img src="images/clients-logo/client4.png" alt="" />
+                                <p>Burmistrz Miasta i Gminy Wschowa</p>
                             </figure>
                         </a>
                     </div>
 
-                    <!-- Clients Logo Item-->
-                    <div class="item">
-                        <a href="#">
-                            <figure>
-                                <img src="images/clients-logo/client1.png" alt="" />
-                            </figure>
-                        </a>
-                    </div>
                 </div>
             </div>
             <!--/.row-->
@@ -715,27 +542,30 @@
             <div class="col-md-8 col-md-offset-2 contact-form">
 
                 <div class="contact-info text-center">
-                    <p>607 433 890</p>
-                    <p>Leszcznska 41, 64-140 Leszno</p>
-                    <p>mail@demo.com </p>
+                    <p>511 411 708</p>
+                    <p>500 359 603</p>
+                    <p>ul.Spokojna 9, 64-100 Leszno</p>
+                    <p>biuro@msrp.com.pl</p>
                 </div>
 
-                <form method="post">
+                <form action="">
                     <div class="row">
                         <div class="col-md-4">
-                            <input class="form-control" id="name" placeholder="Imie" type="text">
+                            <input class="form-control" id="name" placeholder="Imię" type="text" required />
                         </div>
                         <div class="col-md-4">
-                            <input class="form-control" id="email" placeholder="Email" type="email">
+                            <input class="form-control" id="email" placeholder="E-mail" type="email" required />
                         </div>
                         <div class="col-md-4">
-                            <input class="form-control" id="subject" placeholder="Temat" type="text">
+                            <input class="form-control" id="subject" placeholder="Temat" type="text" required />
                         </div>
                         <div class="col-md-12">
-                            <textarea class="form-control" id="message" rows="7" placeholder="Wiadomosc"></textarea>
+                            <textarea class="form-control" id="message" rows="7" placeholder="Wiadomość" required ></textarea>
                         </div>
                         <div class="col-md-12 text-right">
-                            <button type="submit" class="btn btn-green">Wyslij wiadomosc</button>
+                            <button type="submit" class="btn btn-green send-mail-button">Wyślij wiadomość</button>
+                            <p class="success">Wiadomość została wysłana!</p>
+                            <p class="error">Błąd</p>
                         </div>
                     </div>
                 </form>
@@ -764,10 +594,7 @@
                 <div class="col-md-6 col-sm-6 col-xs-6">
                     <div class="social-icons">
                         <ul>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="https://www.facebook.com/MS-Road-66-105264887929563" target="_blank"><i class="fa fa-facebook"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -791,6 +618,7 @@
     <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
     <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/mailer.js"></script>
 
 </body>
 
