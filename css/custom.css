@@ -50,6 +50,10 @@
     color: red;
     display: none;
 }
+
+.no-padding {
+    padding: 0 !important;
+}
 @media (min-width: 1200px) {
     .container-custom {
         width: 970px;

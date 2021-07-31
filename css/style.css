@@ -655,7 +655,8 @@ section {
 }
 
 .menu-bg {
-	background:#565656;
+	background:#aaaaaa;
+	box-shadow: 0px 0px 8px 0px #9e9e9e;
 }
 
 #main-menu ul {
@@ -673,7 +674,7 @@ section {
 	display: inline-block;
 	padding:6px 10px;
 	line-height: 60px;
-	color: #FFF;
+	color: #000000;
 	font-weight: 600;
 	font-size: 15px;
 	text-transform: uppercase;
@@ -710,12 +711,11 @@ section {
 }
 
 .logo {
-	width: 200px !important;
-	height: 75px !important;
+	padding: 10px;
 }
 .logo img{
-	width: 200px !important;
-	height: 75px !important;
+	width: 150px !important;
+	height: 57px !important;
 }
 .logo-nav {
 	float: left;
@@ -882,7 +882,7 @@ section {
 	left: 0;
 	top: 0;
 	right: 0;
-	z-index: 100;
+	z-index: 3;
 	width: 100%;
 	height: 100%;
 }
@@ -2917,10 +2917,6 @@ footer {
 }
 
  @media (max-width: 992px) {
-
-#main-menu {
-	background:#202020;
-}
 	 
  .navbar-right {
  float:none !important;
@@ -2943,6 +2939,7 @@ footer {
 #main-menu ul li a {
     line-height: 23px;
     display: inherit;
+	color:#FFF;
     border-bottom: 1px solid #2C2C2C;
     padding: 5px 20px;
 	background:transparent;

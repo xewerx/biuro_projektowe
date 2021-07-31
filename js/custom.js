@@ -105,48 +105,6 @@
 	},0)
 
 
-/*------------------------------*/
-/*	related project carousel
-/*------------------------------*/
-
-
-	 $('.related-project-carousel').owlCarousel({
-	 autoPlay:3000,
-	 slideSpeed: 200,
-	  items : 4,
-	  itemsDesktop : [1199,4],
-	  itemsDesktopSmall : [979,3],
-	  stopOnHover:true,
-	  pagination:false,
-	  navigation : true,
-	   navigationText: [
-      "<i class='fa fa-angle-left'></i>",
-      "<i class='fa fa-angle-right'></i>"
-      ],   
-
-	});
-	
-	
-/*------------------------------*/
-/*	 Single Work carousel
-/*------------------------------*/
-
-
-     $("#single-work-slider").owlCarousel({
- 
-		navigation : false, // Show next and prev buttons
-		slideSpeed : 400,
-		pagination : false,
-		singleItem:true,
-		autoPlay: true,
-		navigation : true,
-		 navigationText: [
-      "<i class='fa fa-angle-left'></i>",
-      "<i class='fa fa-angle-right'></i>"
-      ] ,
-
- 
-	});
 
 
 /*------------------------------*/
@@ -177,35 +135,6 @@
 		}
 
 
-/*-----------------------------------------------------
-    Scroll Menu BG
--------------------------------------------------------*/
-  
-     $(window).scroll(function () {
-         if ($("#header").offset().top > 50) {
-             $("#header").addClass("menu-bg");
-         } else {
-             $("#header").removeClass("menu-bg");
-         }
-     });
-
-
-/*------------------------------*/
-/* Testimonial Slider
-/*------------------------------*/
-
-
-	 $(".testimonials-carousel").owlCarousel({
-	autoPlay: 5000,
-	slideSpeed: 200,
-	items: 1,
-	itemsDesktop: [1199, 1],
-	itemsDesktopSmall: [979, 1],
-	itemsTablet: [768, 1],
-	itemsMobile: [479, 1],
-	autoHeight: true,
-	navigation: false,
-    });
 
 
 /*------------------------------*/
@@ -233,56 +162,6 @@
 	slideSpeed :1000
 
 	});
-
-
-/*------------------------------*/
-/* Tab Carousel
-/*------------------------------*/
-
-
-     $(".tab-carousel").owlCarousel({
- 
-		navigation : false, // Show next and prev buttons
-		slideSpeed : 400,
-		pagination : false,
-		singleItem:true,
-		autoPlay: true,
-		navigation : true,
-		 navigationText: [
-      "<i class='fa fa-angle-left'></i>",
-      "<i class='fa fa-angle-right'></i>"
-      ] ,
-
- 
-	});
-
-
-/*------------------------------*/
-/* Mixitup portfolio
-/*------------------------------*/
-
-
-   jQuery('.work-grid').mixitup({
-	targetSelector: '.mix',
-	});
-
-
-
-/*------------------------------*/
-/* Magnific popup
-/*------------------------------*/
-
-
-$('.popup-image').magnificPopup({
-		type: 'image',
-		closeOnContentClick: true,
-		mainClass: 'mfp-img-mobile',
-		image: {
-			verticalFit: true
-		}
-		
-	});
-
 
 
 /*------------------------------*/
@@ -321,31 +200,6 @@ $('.popup-image').magnificPopup({
 	   });	
 
 
-
-/*------------------------------*/
-/* Pie Chart
-/*------------------------------*/
-
-$('.pie-chart').appear();
-jQuery(document).on('appear', '.pie-chart',  function()  {
-    $('.pie-chart').easyPieChart({
-        easing: 'easeOutBounce',
-        onStep: function(from, to, percent) {
-            $(this.el).find('.percent').text(Math.round(percent));
-        },
-
-        trackColor: '#FFF',
-        barColor: '#25d6eb',
-        scaleColor: '',
-        lineWidth:10,
-        lineCap:'circle',
-        animate: 2000
-    });
-    var chart = window.chart = $('.chart').data('easyPieChart');
-    $('.js_update').on('click', function() {
-        chart.update(Math.random()*200-100);
-    });
-});
 
 
 /*------------------------------*/
