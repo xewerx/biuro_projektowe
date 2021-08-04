@@ -2,6 +2,11 @@ const sendEmailButton = document.querySelector('.send-mail-button');
 const successAlert = document.querySelector('.success');
 const errorAlert = document.querySelector('.error');
 
+const validateEmail = (email) => {
+    const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());
+}
+
 const sendMail = (e) => {
      
     const tempParams = {
@@ -11,9 +16,9 @@ const sendMail = (e) => {
         message: document.getElementById('message').value,
     }
 
-    if(tempParams.email && tempParams.message && tempParams.name && tempParams.subject){
+    if(tempParams.email && tempParams.message && tempParams.name && tempParams.subject && validateEmail(tempParams.email)){
         e.preventDefault();
-        emailjs.send('service_hiaix0y', 'template_e04sja7', tempParams).then((res) => {
+        emailjs.send('service_rbvmokd', 'template_decoikm', tempParams).then((res) => {
             successAlert.style.display="block";
         }).catch((error) => {
             console.log(error)

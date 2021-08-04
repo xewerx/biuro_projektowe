@@ -75,7 +75,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 	margin-bottom: 20px;
 	font-size: 15px;
 	line-height: 25px;
-	color: #484444;
+	color: #fff;
 	height: 46px;
 	width: 100%;
 	vertical-align: middle;
@@ -761,7 +761,7 @@ section {
 }
 
 .home .flexslider .slides img {
-	background-position: center center;
+	background-position: center 60%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
@@ -1001,8 +1001,9 @@ html[xmlns] .slides {
 /*-----------------------------------------------------------------*/
 
 #facts {
-	background:url(../images/parallax/facts.jpg) no-repeat;
+	background:url(../images/parallax/road.jpg) no-repeat;
 	padding: 150px 0px 100px;
+	background-position-y: 25% !important;
 }
 
 .facts-box {
@@ -2014,11 +2015,10 @@ ul.timeline {
 
 .post-media {
 	overflow: hidden;
-	max-height: 360px;
+	max-height: 450px;
 }
 .post-media img {
-	max-width:100%;
-	height:auto;
+	margin-top: -40px;
 }
 
 .post-blog .btn {
