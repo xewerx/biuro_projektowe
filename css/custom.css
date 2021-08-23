@@ -61,8 +61,17 @@
     color: #ffffff !important;
 }
 
+.set-height-img {
+    overflow: hidden;
+}
+
+.set-height-img img{
+    margin-top: -20px;
+}
+
 @media (min-width: 1200px) {
     .container-custom {
         width: 970px;
     }
 }
+

@@ -152,13 +152,7 @@
 	"<i class='fa fa-angle-right'></i>"
 	],   
 
-	autoPlay: 3000,
-	itemsDesktop : [1169,3],
-	itemsDesktopSmall : [1024,3],
-	itemsTablet : [640,2],
-	itemsTabletSmall : false,
-	itemsMobile : [560,1],
-	// End Responsive Settings
+	autoPlay: 30000,
 	slideSpeed :1000
 
 	});
