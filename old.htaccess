@@ -1,0 +1,7 @@
+Options -Indexes +ExecCGI
+AddHandler cgi-script .pl
+DirectoryIndex awstats.pl
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.msrp.com.pl$ [NC]
+RewriteRule ^(.*)$ http://msrp.com.pl/awstats/$1 [R=301,L]
